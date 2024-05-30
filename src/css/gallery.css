@@ -123,3 +123,33 @@ p {
 }
 
 /* ============================================ */
+
+/* ===============BUTTON STYLES==================== */
+
+.hidden {
+    display: none;
+}
+
+/* #load-more {
+    display: block;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #4E75FF;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+#load-more:hover {
+    background-color: #6C8CFF;
+} */
+
+/* ============================================ */
