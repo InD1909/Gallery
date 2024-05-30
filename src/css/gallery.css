@@ -1,0 +1,125 @@
+/* ===============INPUT STYLES==================== */
+
+.form-btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 91px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #4E75FF;
+    color: #ffffff;
+    ;
+}
+
+.form-btn:hover {
+    background-color: #6C8CFF;
+}
+
+.gallery-search {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    max-height: 40px;
+    padding-left: 16px;
+}
+
+.gallery-form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* ============================================ */
+
+/* ===============IMAGES STYLES==================== */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.gallery-img {
+    display: block;
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-item {
+    display: block;
+    width: 360px;
+}
+
+.list-item {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    max-width: 360px;
+}
+
+.info {
+    display: flex;
+}
+
+p {
+    text-align: center;
+}
+
+/* ============================================ */
+
+/* ===============LOADER STYLES==================== */
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    animation: pulse 1s linear infinite;
+}
+
+.loader:after {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: scaleUp 1s linear infinite;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: translate(-50%, -50%) scale(0)
+    }
+
+    60%,
+    100% {
+        transform: translate(-50%, -50%) scale(1)
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    60%,
+    100% {
+        transform: scale(1)
+    }
+
+    80% {
+        transform: scale(1.2)
+    }
+}
+
+/* ============================================ */
